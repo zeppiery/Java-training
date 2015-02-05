@@ -1,8 +1,26 @@
 public class NewMain {
   public static void main(String args[]) {
      for (int i = 0; i < args.length; i++) {
-     System.out.println("Аргумент = " + args [i]);
+     //System.out.println("Аргумент = " + args [i]);
+     for (String name :arg) {
+      Person person - new Person(name);
+      System.out.println(person.toString());
     }
     System.out.println("Количество= " + args.length;);
   }
 }
+
+Public class Person {
+  private String name;
+  
+  public void GetName() {
+  return name;
+  }
+  
+  public void setName(String name) {
+    this.name=name=name;
+    }
+    @Override 
+  public String to String() { 
+  final 
+  }
